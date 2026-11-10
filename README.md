@@ -25,6 +25,3 @@ torch 2.15.0, onnx 1.23.2 and onnxslim 0.1.99:
 from ultralytics import YOLO
 YOLO("yolo26s-seg.pt").export(format="onnx", imgsz=640, opset=18, simplify=True, dynamic=True)
 ```
-
-The weights are Ultralytics' and keep their licence (AGPL-3.0, see
-https://github.com/ultralytics/ultralytics).
